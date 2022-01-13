@@ -57,7 +57,7 @@ with container3:
     '''
     st.write(c)
     '''
-    # let's have a look at some crypto analysis
+    # let's have a look at some crypto
     '''
 
 # tickerData.info['name']    
