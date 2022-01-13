@@ -19,7 +19,7 @@ container3 = st.container()
 
 with header:
     '''
-    # welcome to noam's pathetic app :monkey:
+    # welcome to noam's pathetic app :sleeping:
     '''
     st.header('Streamlit is actually pretty cool!')
     st.header("Here I'll show you why")
