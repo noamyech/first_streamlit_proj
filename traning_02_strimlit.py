@@ -16,12 +16,12 @@ header = st.container()
 container1 = st.container()
 container2 = st.container()
 container3 = st.container()
-'''
-    # welcome to noam's pathetic app :sick:
 
-'''
 with header:
-    st.title('Streamlit is actually pretty cool!')
+    '''
+    # welcome to noam's pathetic app :sick:
+    '''
+    st.header('Streamlit is actually pretty cool!')
     st.header("Here I'll show you why")
 with container1:
     "you can actually insert equations:"
