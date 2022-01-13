@@ -19,7 +19,7 @@ container3 = st.container()
 
 with header:
     '''
-    # welcome to noam's pathetic app :sick:
+    # welcome to noam's pathetic app :nerd:
     '''
     st.header('Streamlit is actually pretty cool!')
     st.header("Here I'll show you why")
@@ -44,14 +44,17 @@ with container2:
              "Damm right you are :heart:"
 with container3:
     '''
-    # you can do data visualization
+    # It can do data visualization
 
-    you can dislay the table:_.
+    you can dislay the table:
     '''
     df = pd.DataFrame(np.random.normal(loc=10.0, scale=5.2, size=[600,4]),columns=['a', 'b', 'c','d'])
     c = alt.Chart(df).mark_circle().encode(
     x='a', y='b', size='c', color='d', tooltip=['a', 'b', 'c','d'])
     df
+    '''
+    as:
+    '''
     st.write(c)
     '''
     # let's have a look at some crypto analysis
