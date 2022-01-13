@@ -55,6 +55,3 @@ with container3:
 temp = pd.read_csv('crypto_ticker_symbols.csv')
 crypto_ticker_names = temp['ticker'].tolist()
 
-'''
-what?
-'''
