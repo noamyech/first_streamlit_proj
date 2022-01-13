@@ -47,3 +47,11 @@ with container3:
     x='a', y='b', size='c', color='d', tooltip=['a', 'b', 'c','d'])
     df
     st.write(c)
+    '''
+    # let's have a look at some crypto analysis
+    '''
+
+# tickerData.info['name']    
+temp = pd.read_csv('crypto_ticker_symbols.csv')
+crypto_ticker_names = temp['ticker'].tolist()
+    
