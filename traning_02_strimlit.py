@@ -4,7 +4,7 @@ Created on Mon Jan 10 21:14:25 2022
 
 @author: Noam
 """
-import yfinance as yf
+# import yfinance as yf
 import pandas as pd
 import numpy as np
 import altair as alt
@@ -59,7 +59,14 @@ temp = pd.read_csv('crypto_ticker_symbols.csv')
 crypto_ticker_names = temp['ticker'].tolist()
 # crypto_common_names = temp['name'].tolist()
 
-data_df = yf.download(crypto_ticker_names)
+
+
+# data_df = yf.download(crypto_ticker_names)
+# data_df.to_pickle('data_df.pkl')
+
+                    
+data_df= pd.read_pickle("data_df.pkl")
+                    
 
 # =============================================================================
 # 
