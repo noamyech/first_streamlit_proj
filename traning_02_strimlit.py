@@ -67,11 +67,11 @@ crypto_ticker_names = temp['ticker'].tolist()
 
 
 
-# data_df = yf.download(crypto_ticker_names)
+data_df = yf.download(crypto_ticker_names)
 # data_df.to_pickle('data_df.pkl')
 
                     
-data_df= pd.read_pickle("data_df.pkl")
+#data_df= pd.read_pickle("data_df.pkl")
                     
 
 # =============================================================================
