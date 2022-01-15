@@ -4,7 +4,7 @@ Created on Mon Jan 10 21:14:25 2022
 
 @author: Noam
 """
-# import yfinance as yf
+import yfinance as yf
 import pandas as pd
 import numpy as np
 import altair as alt
