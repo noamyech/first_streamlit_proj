@@ -140,9 +140,15 @@ from sklearn.datasets import load_boston
 
 X, y = load_boston(return_X_y=True)
 '''
-    #lets look at boston houses dataset
+    # lets look at boston houses dataset
 
 '''
+''' 
+   Here are the samples X:
+'''
 st.write(X)    
-    
+'''
+   And here are the corresponding values y:
+'''
+st.write(y) 
     
