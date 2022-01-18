@@ -10,6 +10,7 @@ import numpy as np
 import altair as alt
 import streamlit as st
 import datetime
+import sklearn
 
 
 header = st.container()
@@ -134,6 +135,7 @@ st.write("""
 """)
 st.line_chart(volume_df)
 
+st.header("next: scikit learn mini tutorial")
 
     
     
