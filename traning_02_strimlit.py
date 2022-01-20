@@ -173,4 +173,4 @@ X, y = load_boston(return_X_y=True)
 
 mod = KNeighborsRegressor().fit(X, y)
 pred = mod.predict(X)
-st.altair_chart(pred, y)
+st.pyplot(pred, y)
