@@ -161,3 +161,17 @@ X, y = load_boston(return_X_y=True)
 mod = LinearRegression()
 mod.fit(X, y)
 mod.predict(X)[:3]
+
+mod = KNeighborsRegressor()
+mod.fit(X, y)
+mod.predict(X)[:3]
+
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.datasets import load_boston
+import matplotlib.pylab as plt
+
+X, y = load_boston(return_X_y=True)
+
+mod = KNeighborsRegressor().fit(X, y)
+pred = mod.predict(X)
+plt.scatter(pred, y)
