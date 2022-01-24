@@ -173,4 +173,8 @@ X, y = load_boston(return_X_y=True)
 
 mod = KNeighborsRegressor().fit(X, y)
 pred = mod.predict(X)
-st.pyplot(pred, y)
+
+df2 = pd.DataFrame(list(zip(pred, y)), columns =['pred', 'y'])
+
+st.line_chart(df2)
+#st.pyplot(pred, y)
