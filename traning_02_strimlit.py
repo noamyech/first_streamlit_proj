@@ -164,12 +164,7 @@ mod.predict(X)[:3]
 
 mod = KNeighborsRegressor()
 mod.fit(X, y)
-mod.predict(X)[:3]
-
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.datasets import load_boston
-
-X, y = load_boston(return_X_y=True)
+mod.predict(X)
 
 mod = KNeighborsRegressor().fit(X, y)
 pred = mod.predict(X)
